@@ -1,0 +1,16 @@
+.main {
+  background-image: url(image.png);
+  background-size: cover;
+}
+
+.home.container {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.left {
+  background-color: rgba(30,30,30);
+  color: #fff;
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
