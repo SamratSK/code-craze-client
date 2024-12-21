@@ -1,0 +1,84 @@
+#body .spacer {
+  height: 5rem;
+  width: 100%;
+}
+
+#body #section1 .container {
+  display: grid !important;
+  grid-template-columns: 1fr;
+  padding: 5rem 0;
+}
+
+#body #section1 .col-1 .tag {
+  font-size: 110%;
+  margin: 0 0 1.5rem 0;
+  text-transform: uppercase;
+  letter-spacing: 0.25rem;
+  opacity: 0.7;
+}
+#body #section1 .col-1 h1 {
+  font-size: 260%;
+}
+#body #section1 .col-1 .desc {
+  font-size: 1.1rem;
+  margin: 1rem 0 2.75rem 0;
+}
+
+#body #section3 .container {
+  display: grid !important;
+  grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
+  gap: 1.95rem 1.75rem;
+}
+
+#body #section3 .head {
+  padding: 0.25rem;
+}
+#body #section3 .head p {
+  margin: 1.25rem 0 1rem 0;
+}
+#body #section3 .head .btn {
+  width: fit-content;
+}
+
+#body #section3 .card {
+  position: relative;
+  box-shadow: 0 0 1rem 0rem var(--clr-card-shadow);
+  border-radius: 0.5rem;
+  transition: box-shadow 1s;
+  overflow: hidden;
+}
+#body #section3 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+#body #section4 .container {
+  background-color: var(--clr-highlight);
+  border-radius: 0.5rem;
+  padding: 3rem 1rem;
+}
+#body #section4 .container,
+#body #section4 .container h1 {
+  color: var(--clr-highlight-fg);
+}
+#body #section4 .container .inner-container {
+  text-align: center;
+  font-size: 130%;
+}
+#body #section4 .container .inner-container h1 {
+  line-height: 1.45;
+}
+#body #section4 .container .inner-container .freedom {
+  text-shadow: 0 0 1rem var(--clr-highlight-fg);
+}
+#body #section4 .container .inner-container p {
+  font-style: italic;
+  opacity: 0.8;
+  margin: 1.5rem 0 0 0;
+  align-self: flex-end;
+}
+
+#body .spacer {
+  height: 5rem;
+  width: 100%;
+}

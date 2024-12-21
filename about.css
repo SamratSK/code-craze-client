@@ -1,0 +1,25 @@
+#body .spacer {
+  height: 5rem;
+  width: 100%;
+}
+
+#body #section1 .container {
+  display: grid !important;
+  grid-template-columns: 1fr;
+  padding: 5rem 0;
+}
+
+#body #section1 .col-1 .tag {
+  font-size: 110%;
+  margin: 0 0 1.5rem 0;
+  text-transform: uppercase;
+  letter-spacing: 0.25rem;
+  opacity: 0.7;
+}
+#body #section1 .col-1 h1 {
+  font-size: 260%;
+}
+#body #section1 .col-1 .desc {
+  font-size: 1.1rem;
+  margin: 1rem 0 2.75rem 0;
+}

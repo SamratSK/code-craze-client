@@ -1,0 +1,45 @@
+#body .spacer {
+  height: 5rem;
+  width: 100%;
+}
+
+#section1 {
+  height: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#body {
+  background-color: rgba(230, 230, 230);
+
+  height: 100%;
+}
+
+#body #section1 .card {
+  width: min(80vw, 30rem);
+  padding: 1.95rem 1.75rem;
+  box-shadow: 0 0 1rem 0rem var(--clr-card-shadow);
+  border-radius: 0.5rem;
+  gap: 1.5rem;
+}
+
+#body #section1h1 {
+  margin-bottom: 0.5rem;
+}
+ 
+#body #section1 button {
+  margin-top: 0.15rem;
+  align-self: flex-end;
+}
+
+#body #section1 .form-group {
+  gap: 0.4rem;
+}

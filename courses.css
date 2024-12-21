@@ -3,24 +3,9 @@
   width: 100%;
 }
 
-
-#body #section1 .container {
-  gap: 2rem;
-}
-
-#body #section1 #smtg{
-
-  background-image: url(image.png);
-  background-size: cover;
-  background-position-x: right;
-
-  border-radius: 0.5rem;
-  
-}
-
 #body #section1 .container {
   display: grid !important;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
   padding: 5rem 0;
 }
 
@@ -37,27 +22,6 @@
 #body #section1 .col-1 .desc {
   font-size: 1.1rem;
   margin: 1rem 0 2.75rem 0;
-}
-
-
-#body #section2  {
-  color: var(--clr-highlight-fg);
-  background-color: var(--clr-highlight);
-}
-
-#body #section2 .container {
-  justify-content: space-around;
-  padding: 2.5rem 0;
-}
-#body #section2 .container .separator {
-  height: 70%;
-  background-color: var(--clr-highlight-fg);
-  width: 0.1rem;
-}
-#body #section2 .container .val {
-  font-size: 150%;
-  font-weight: bold;
-  margin-bottom: 0.35rem;
 }
 
 #body #section3 .container {
@@ -83,10 +47,6 @@
   border-radius: 0.5rem;
   transition: box-shadow 1s;
 }
-#body #section3 .card:hover .icon {
-  margin-left: 100%;
-  translate: -100% 0;
-}
 #body #section3 .card:hover {
   box-shadow: 0 0 1.25rem 0rem var(--clr-card-shadow-hov);
 }
@@ -95,14 +55,15 @@
 }
 #body #section3 .card .icon {
   transition: margin-left 1s, translate 1s;
-  width: 4rem;
+  width: 100%;
   aspect-ratio: 1;
 }
 #body #section3 .card .icon {
   background-color: var(--clr-accent);
   color: var(--clr-card-bg);
   border-radius: 0.5rem;
-  width: 4rem;
+  width: 100%;
+  overflow: hidden;
 }
 #body #section3 .card .icon,
 #body #section3 .card .icon svg {
